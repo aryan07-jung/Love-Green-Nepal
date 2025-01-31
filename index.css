@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.top {
+    background: #044404;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.top .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top ul {
+    display: flex;
+    gap: 20px;
+}
+
+.top a {
+    color: white;
+}
+
+header {
+    background: #247c04;
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+.banner {
+    padding: 30px 0;
+    background: linear-gradient(180deg, #214c00 0%, rgba(18, 155, 68, 0.66) 100%) !important;
+}
+
+.banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.about {
+    padding: 30px 0;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 70%;
+}
+
+.left h2 {
+    color: #247c04;
+}
+
+.left p {
+    padding: 10px 10px 10px 0;
+    text-align: justify;
+}
+
+.right {
+    width: 30%;
+    background: #247c04;
+    color: white;
+    padding: 20px;
+}
+
+.right h3 {
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.right img {
+    width: 100%;
+}
+
+.right p {
+    color: white;
+    padding: 10px;
+}
+
+.what {
+    padding: 40px 0;
+    background: rgba(133, 170, 117, 0.31);
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+}
+
+.left1 {
+    width: 40%;
+}
+
+.left1 h1 {
+    color: green;
+}
+
+.left1 p {
+    padding: 20px 0;
+    line-height: 20px;
+
+}
+
+.sep {
+    width: 100px;
+    height: 4px;
+    background: #044404;
+    margin: 20px 0;
+}
+
+.outlinebtn {
+    border: 3px solid #247c04;
+    color: #247c04;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.right1 {
+    width: 60%;
+}
+
+.right1 h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 0 0 20px 0;
+}
+
+.right1 ul {
+    background: #B9D5AC;
+    padding: 20px;
+}
+
+.right1 li {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    border-bottom: 1px solid #999;
+    padding-bottom: 20px;
+}
+
+.right1 p {
+    padding: 10px;
+}
+
+footer {
+    background: #247C04;
+
+}
+
+footer .container>div {
+    width: 30%;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    color: white;
+}
+
+.container h3 {
+    font-size: x-large;
+    padding: 10px 0 10px 0;
+}
+
+footer ul {
+    list-style: disc;
+}
+
+.copyright {
+    background: #0D5911;
+    padding: 20px;
+}
+
+.copyright .container {
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.social {
+    font-size: 22px;
+
+
+}
+
+main {
+    padding: 50px 0;
+}
+
+main h1 {
+    padding: 20px 0;
+    color: green;
+    font-size: 35px;
+}
+
+form {
+    box-shadow: 10px 10px 10px 10px #ccc;
+    border: 2px solid #ccc;
+    padding: 30px;
+    width: 490px;
+}
+
+form input {
+    width: 100%;
+    height: 44px;
+    margin: 10px 0;
+    padding-left: 20px;
+
+}
+
+.py-2 {
+    padding: 10px 50px;
+    text-align: justify;
+
+}
+
+.container3 h1 {
+    color: green;
+    padding: 10px 50px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+
+    gap: 20px;
+
+}
+
+.bx-wrapper {
+    border: none;
+}
+
+.form1 {
+    padding: 30px 70px;
+
+}
+
+.left2 {
+    width: 40%;
+}
+
+.left2 h1 {
+    color: green;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.left2 p {
+    padding: 10px;
+}
+
+.right2 {
+    width: 60%;
+
+}
+
+.right2 h1 {
+    color: green;
+    padding: 10px;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+
+.form2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.lft {
+    width: 50%;
+
+}
+
+.lft input {
+    border: 2px solid green;
+}
+
+.rht input {
+    border: 2px solid green;
+}
+
+.rht {
+    width: 50%;
+
+}
+
+.box3 input {
+    height: 200px;
+    text-align: center;
+    border: 2px solid green;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+.btn {
+    width: 600px;
+    padding-left: 500px;
+
+}
+
+.btn button {
+    color: white !important;
+    border-width: 0px !important;
+    border-color: #7272ff;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    background-image: radial-gradient(circle at center, #11ad54 0%, #0f4f33 100%) !important;
+    background-color: #7272ff !important;
+    ;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+    width: 180px;
+    padding: 10px 10px;
+
+}
+
+.A {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+}
+
+.pro {
+    width: 80%;
+}
+
+.pro1 {
+    width: 20%;
+   
+}
+
+.pro1 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pro1 h3 {
+    font-size: xx-large;
+    color: green;
+    text-align: center;
+    
+    
+}
+
+.pro1 p {
+    padding: 10px 10px;
+    text-align: justify;
+
+}
+.photo{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.photo img{
+    width: 25%;
+    height: 40%;
+    padding: 20px 20px 20px 20px;
+}
+.photo iframe{
+    width: 30%;
+   height: 250px;
+    padding: 20px 20px 20px 20px;
+}
+.what{
+    display: flex;
+    justify-content: space-between;
+}
+.tree{
+    width: 30%;
+}
+.love{
+    width: 70%;
+}
+.tree h2{
+    font-size: x-large;
+    color: green;
+    padding: 20px 20px;
+}   
+.tree img{
+    width: 100%;
+    object-fit: cover;
+padding: 20px 20px;
+}
+.love{
+    padding-top: 90px;
+}
+.love p{
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+}
